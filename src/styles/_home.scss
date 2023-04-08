@@ -1,0 +1,30 @@
+:where(.css-dev-only-do-not-override-10ed4xt).ant-layout-header {
+  background: none !important;
+}
+.music-waves-2 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-waves-2 > span {
+  display: block;
+  position: relative;
+  background: #000;
+  height: 100%;
+  width: 1rem;
+  border-radius: 1rem;
+  margin: 0 0.2rem;
+  animation: waves-2 1.2s linear infinite;
+}
+
+.music-waves-2 > span:nth-child(1) {
+  animation-delay: 0s;
+  background: #ff8c00;
+}
+
+.music-waves-2 > span:nth-child(2) {
+  animation-delay: 0.3s;
+  background: #ffff00;
+}
